@@ -1,0 +1,128 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navbar{
+    background-color: #340040;
+    color: #F2055C;
+}
+
+.title-section{
+    font-weight: 1000;
+    border-bottom: 1px solid;
+}
+
+
+
+.title-section .nav-link{
+    font-weight: 0 !important;
+}
+
+header{
+    font-weight: 600 !important;
+}
+
+.odd{
+    background: wheat;
+    color: #1C2C5B;
+}
+
+.odd header{
+    color:#340040!important;
+
+}
+
+.even{
+    background-color: #340040;
+    color: white;
+}
+
+.even header{
+    color:#F2055C!important;
+}
+
+#footer{
+    background: #340040;
+    color: #F2055C;
+}
+
+@media only screen and (max-width: 600px)  {
+    *{
+        text-align: center;
+    }
+
+    li{
+        text-align: left !important;
+        font-size: 0.8rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    code{
+        font-size: 0.8rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    #navbar{
+        position: relative !important;
+    }
+
+    img{
+        display: none;
+    }
+
+    #navbar ul{
+        height: 10%;
+    }
+
+
+    #navbar a{
+        display: inline;
+        font-size: 1rem !important;
+    }
+
+    #navbar a:hover{
+        background: none !important;
+        color: white !important;
+    }
+}
+
+#navbar{
+    position: fixed;
+    width: inherit;
+    height: 100%;
+    background-color: #340040;
+    border-right: 3px solid #F2055C;
+}
+
+
+.col-md-3, .col-md-9{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navbar a{
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.7rem 1rem !important;
+}
+
+#navbar a:hover{
+    background: white;
+    color: #340040;
+    transition: 0.7s ease;
+}
+
+#navbar img{
+    height: auto;
+    width: 100%;
+    filter: grayscale(1) invert(1);
+}
+ 
