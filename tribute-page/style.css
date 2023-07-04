@@ -1,0 +1,112 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+body{
+    background: #6CABDD;
+}
+
+#main #title{
+    font-size: 3.4rem;
+    color: #1C2C5B;
+}
+
+#main #description{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+}
+
+#main .container-fluid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+
+#main #image{
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+#main #img-caption-text span{
+    color: #1C2C5B;
+    font-weight: bold;
+}
+
+#main #tribute-info{
+    text-align: center;
+    color:#1C2C5B;
+    background: white;
+}
+
+#main #tribute-info #tribute-link{
+    text-decoration: underline;
+    color: #EC3325;
+}
+
+#teams h2{
+    color: #1C2C5B;
+    font-weight: 600;
+}
+
+.team-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#teams .card-img{
+    height: auto;
+    width: 10%;
+}
+
+.team-card h5{
+    font-weight: bold;
+}
+
+.team-card p{
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #teams .card-img{
+        height: auto;
+        width: 20%;
+    }
+
+    .team-card{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-card h5{
+        margin-top: 1rem;
+    }
+
+    .team-card p{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 777px) {
+    .team-card{
+        padding: 0 !important;
+    }
+
+    .team-card p{
+        margin-top: 1rem;
+    }
+
+    #img-caption{
+        text-align: center;
+    }
+
+    .card-text{
+        margin: 0 !important;
+    }
+  }
