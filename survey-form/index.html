@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh - Form</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main">
+        <center><img src="https://www.fifplay.com/img/public/premier-league-4-logo.png" alt="logo"
+                class="img-fluid mt-3">
+        </center>
+        <h1 id="title" class="text-center mt-4">Football Survey</h1>
+        <p id="description" class="text-center h5">This form has been created in order to gain information and data
+            about
+            the football fans.
+        </p>
+        <div class="container p-5 ">
+            <form action="#" id="survey-form" class="border">
+                <div class="mv-4 px-5 pt-5">
+                    <label for="name" id="name-label" class="h5 form-label">Name</label>
+                    <input type="text" id="name" class="form-control" required placeholder="Enter your name">
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <label for="email" id="email-label" class="h5 form-label">Email</label>
+                    <input type="email" id="email" class="form-control" required placeholder="Enter your email">
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <label for="number" id="number-label" class="h5 form-label ">Age</label>
+                    <input type="number" id="number" class="form-control" min="5" max="100" placeholder="Age">
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <label for="number" id="number-label" class="h5 form-label ">Favourite Team</label>
+                    <select name="teams" id="dropdown" class="form-select">
+                        <option disbaled selected value="NULL">Select your Team..</option>
+                        <option value="MNC">Manchester City</option>
+                        <option value="MNU">Manchester United</option>
+                        <option value="LIV">Liverpool</option>
+                        <option value="CHE">Chelsea</option>
+                        <option value="RMA">Real Madrid</option>
+                        <option value="BAR">Barcelona</option>
+                        <option value="BMU">Bayern Munich</option>
+                        <option value="JUV">Juventus</option>
+                        <option value="ARS">Arsenal</option>
+                        <option value="PSG">Paris Saint Germain</option>
+                    </select>
+                </div>
+                <div class="mv-4 px-5 pt-4">
+
+                    <h5 class="py-3">Gender :</h5>
+
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="gender" id="number-label" class="h6 form-label mx-2">Male</label><br>
+
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="gender" id="number-label" class="h6 form-label mx-2">Female </label>
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <h5>What would u like to Improve?</h5><br>
+                    <input type="checkbox" name="improve" id="VAR" value="VAR">
+                    <label for="gender" id="VAR" class="h6 form-label mx-2">VAR</label><br>
+                    <input type="checkbox" name="improve" id="Offside" value="Offside">
+                    <label for="gender" id="Offside" class="h6 form-label mx-2">Offside</label>
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <label for="gender" id="suggestion" class="h5 form-label">Give us some Suggestions</label><br>
+                    <textarea class="px-2 py-1" name="suggestion" id="suggestion"
+                        placeholder="Enter your suggestion here.."></textarea>
+                </div>
+                <div class="mv-4 px-5 pt-4">
+                    <input type="submit" value="Submit" id="submit" class="form-control py-3 mb-5">
+                </div </form>
+        </div>
+        <div class="footer py-3">
+            <h5 class="text-center">Created by Adarsh</h5>
+        </div>
+    </main>
+
+    <!-- Javascript of Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

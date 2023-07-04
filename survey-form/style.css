@@ -1,0 +1,42 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+body{
+    background: linear-gradient(#0f0c29, #302b63, #24243e);
+}
+
+#main #title{
+    font-weight: bold;
+    color: white;
+}
+
+#main #description{
+    color: white;
+}
+
+
+#main img{
+    width: 10%;
+    filter: brightness(0) invert(1);
+}
+
+#survey-form{
+    background-color: white;
+    border-radius: 10px;
+    color: #0f0c29;
+}
+
+#submit{
+    background: #0f0c29;
+    color: white;
+}
+
+textarea{
+    width: 80%;
+}
+
+.footer{
+color: white;
+background-color: #0f0c29;
+}
